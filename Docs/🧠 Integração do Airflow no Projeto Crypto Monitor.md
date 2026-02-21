@@ -177,10 +177,11 @@ with engine.begin() as conn:
 **Problema:** Usuário padrão `airflow/airflow` não é criado automaticamente.  
 **Solução:** Criar usuário manualmente dentro do container:
 
-bash
+```bash
 
 docker exec -it projeto-crypto-monitor-airflow-scheduler-1 bash
 airflow users create --username admin --firstname Admin --lastname User --role Admin --email admin@example.com
+```
 
 Ou via script no `airflow-init` (não recomendado para produção).
 
