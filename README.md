@@ -19,4 +19,5 @@ Este projeto implementa um pipeline de dados ETL (Extract, Transform, Load) para
 ___
 ## Documentação
   
-Para mais detalhes sobre a estrutura do código e decisões técnicas, consulte a [documentação completa](docs/).
+Para mais detalhes sobre a estrutura do código e decisões técnicas, consulte a [documentação completa](Docs/).
+
